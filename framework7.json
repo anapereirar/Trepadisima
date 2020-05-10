@@ -1,0 +1,26 @@
+{
+  "cwd": "D:\\6to\\Integración 2\\3er_Corte\\trepadisima-app",
+  "type": [
+    "web"
+  ],
+  "name": "Trepadisima",
+  "framework": "core",
+  "template": "single-view",
+  "bundler": "webpack",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": true,
+    "color": "#e63299",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": true
+  },
+  "customBuild": false,
+  "webpack": {
+    "developmentSourceMap": true,
+    "productionSourceMap": true,
+    "hashAssets": false,
+    "preserveAssetsPaths": false,
+    "inlineAssets": true
+  }
+}
