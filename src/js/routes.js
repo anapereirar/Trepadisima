@@ -2,6 +2,16 @@
 import HomePage from '../pages/home.f7.html';
 import AboutPage from '../pages/about.f7.html';
 import FormPage from '../pages/form.f7.html';
+import Cuerpo from '../pages/about.f7.html';
+import Maquillaje from '../pages/form.f7.html';
+import Cabello from '../pages/form.f7.html';
+import Vestuario from '../pages/vestuario.f7.html';
+import Padding from '../pages/padding.f7.html';
+import Tucking from '../pages/tucking.f7.html';
+import Características from '../pages/vest-caract.f7.html';
+import Shows from '../pages/shows.f7.html';
+import Lipsync from '../pages/lipsync.f7.html';
+import Bailes from '../pages/bailes.f7.html';
 
 
 import DynamicRoutePage from '../pages/dynamic-route.f7.html';
@@ -12,6 +22,38 @@ var routes = [
   {
     path: '/',
     component: HomePage,
+  },
+    {
+    path: '/vestuario/',
+    component: Vestuario,
+  },
+    {
+    path: '/',
+    component: Cuerpo,
+  },
+    {
+    path: '/padding/',
+    component: Padding,
+  },
+ {
+    path: '/tucking/',
+    component: Tucking,
+  },
+    {
+    path: '/vest-caract/',
+    component: Características,
+  },
+    {
+    path: '/shows/',
+    component: Shows,
+  },
+     {
+    path: '/lipsync/',
+    component: Lipsync,
+  },
+    {
+    path: '/bailes/',
+    component: Bailes,
   },
   {
     path: '/about/',
