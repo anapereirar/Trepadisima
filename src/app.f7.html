@@ -3,22 +3,34 @@
   <div id="app">
 
     <!-- Left panel with cover effect-->
-    <div class="panel panel-left panel-cover theme-dark panel-init">
+    <div class="panel panel-left panel-resizeble theme-dark panel-init panel-reveal">
       <div class="view">
-        <div class="page">
+        <div class="page fondo-ar">
           <div class="navbar">
-            <div class="navbar-bg"></div>
+            <div class="navbar-bg trepadisima-navbar"><img src="static/images/trepadisima_navbar.svg" alt="logo trepadísima"></div>
             <div class="navbar-inner">
-              <div class="title">Left Panel</div>
+              <div class="Menú"></div>
             </div>
           </div>
           <div class="page-content">
-            <div class="block">Left panel content goes here</div>
+            <div class="block">
+                <div class="list simple-list menu-ana">
+             <ul>
+                 <li class="fondo-lista-a panel-close"><a href="#">Historia</a></li>
+                 <li class="fondo-lista-a panel-close"><a href="#">Hall of fame</a></li>
+                 <li class="fondo-lista-a panel-close"><a href="/shows/">Shows</a></li>
+                 <li class="fondo-lista-a panel-close"><a href="/bailes/">Bailes</a></li>
+                 <li class="fondo-lista-a panel-close"><a href="/about/">About</a></li>
+             </ul>
+        </div>
+
+              </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Right panel with reveal effect-->
+<!--
     <div class="panel panel-right panel-reveal theme-dark">
       <div class="view">
         <div class="page">
@@ -34,6 +46,7 @@
         </div>
       </div>
     </div>
+-->
 
     <!-- Your main view, should have "view-main" class -->
     <div class="view view-main view-init safe-areas" data-url="/"></div>
