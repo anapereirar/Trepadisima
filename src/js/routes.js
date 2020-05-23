@@ -11,6 +11,9 @@ import Tucking from '../pages/tucking.f7.html';
 import Características from '../pages/vest-caract.f7.html';
 import Shows from '../pages/shows.f7.html';
 import Lipsync from '../pages/lipsync.f7.html';
+import Canto from '../pages/canto.f7.html';
+import Burlesque from '../pages/burlesque.f7.html';
+import Bar from '../pages/bar.f7.html';
 import Bailes from '../pages/bailes.f7.html';
 
 
@@ -50,6 +53,18 @@ var routes = [
      {
     path: '/lipsync/',
     component: Lipsync,
+  },
+    {
+    path: '/canto/',
+    component: Canto,
+  },
+    {
+    path: '/burlesque/',
+    component: Burlesque,
+  },
+    {
+    path: '/bar/',
+    component: Bar,
   },
     {
     path: '/bailes/',

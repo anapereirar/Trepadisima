@@ -1,57 +1,77 @@
 <template>
-  <div class="page" data-name="shows">
+    <div class="page" data-name="shows">
+   <!-- Top Navbar -->
+    <div class="navbar navbar-large">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner">
 
-    <!-- Toolbar-->
-    <div class="toolbar toolbar-bottom">
-      <div class="toolbar-inner">
-        <a href="#" class="link"><img src="static/images/cuerpo.svg" alt="ícono de cuerpo"></a>
-        <a href="#" class="link"><img src="static/images/maquillaje.svg" alt="ícono de brocha"></a>
-        <a href="#" class="link"><img src="static/images/home.svg" alt="ícono de home"></a>
-        <a href="#" class="link"><img src="static/images/cabello.svg" alt="ícono de  cepillo de cabello"></a>
-        <a href="/vestuario/" class="link"><img src="static/images/vestuario.svg" alt="ícono de vestido"></a>
-      </div>
-    </div>
-    <!-- Scrollable page content-->
-    <div class="page-content fondo-a">
-       <div class="block">
-    <div class="col-100 medium-50">
-          <div class="contenido-principal-a">
-           <div class="caja-foto-pri">
-               <img src="static/images/shows/show-esccenariodrag.jpg" alt="Drags haciendo un performance en un club nocturno"></div>
-           <div class="info-pri">
-            <h2 class="titulos-h2">Shows</h2>
-           </div>
-       </div>
-       </div>
-    <div class="col-100 medium-50"><div class="descripcion-a">
-        <p>Un espectáculo Drag Queen es un show divertidos, picante, trepidante y siempre respetuoso con el público. Es ideal para animar celebraciones y crear el ambiente más alegre y original en todo tipo de fiestas, incluídas las familiares.</p>
-    </div>
-    </div>
-
-
-
-   <br><br>
-    <div class="col-100 medium-50">
-      <hr class="linea-a">
-      <div class="subsecciones-a">
-          <div class="caja-subsecciones-a">
-              <div class="caja-subsecciones-img">
-                  <img src="static/images/shows/lipsync.jpg" alt=""></div><a href="/lipsync/"><h3 class="info-subsecciones">Lipsync</h3></a>
-          </div>
-      </div>
-          <div class="caja-subsecciones-a">
-              <div class="caja-subsecciones-img">
-                  <img src="static/images/shows/canto-conchita.jpg" alt=""></div><a href="#"><h3 class="info-subsecciones">Canto</h3></a>
-      </div>
-       <div class="caja-subsecciones-a">
-              <div class="caja-subsecciones-img">
-                  <img src="static/images/shows/burlesque.jpg" alt=""></div><a href="#"><h3 class="info-subsecciones">Burlesque</h3></a>
-      </div>
+        <div class="left">
+          <a href="#" class="link icon-only panel-open" data-panel="left">
+            <i class="icon f7-icons if-not-md">menu</i>
+            <i class="icon material-icons if-md">menu</i>
+          </a>
         </div>
+
+        <div class="title sliding trepadisima-ana"><img src="static/images/trepadisima_navbar.svg" alt="logo trepadisima"></div>
+        <div class="title-large">
+          <div class="title-large-text large-trepadisima-a"><img src="static/images/trepadisima_navbar.svg" alt="logo trepadísima"></div>
         </div>
-         </div>
       </div>
+    </div>
+        <!-- Toolbar-->
+        <div class="toolbar toolbar-bottom">
+            <div class="toolbar-inner">
+                <a href="#" class="link"><img src="static/images/cuerpo.svg" alt="ícono de cuerpo"></a>
+                <a href="#" class="link"><img src="static/images/maquillaje.svg" alt="ícono de brocha"></a>
+                <a href="/" class="link"><img src="static/images/home.svg" alt="ícono de home"></a>
+                <a href="#" class="link"><img src="static/images/cabello.svg" alt="ícono de  cepillo de cabello"></a>
+                <a href="/vestuario/" class="link"><img src="static/images/vestuario.svg" alt="ícono de vestido"></a>
+            </div>
+        </div>
+        <!-- Scrollable page content-->
+        <div class="page-content fondo-a">
+            <div class="block">
+                <div class="col-100 medium-50">
+                    <div class="contenido-principal-a">
+                        <div class="caja-foto-pri">
+                            <img src="static/images/shows/show-esccenariodrag.jpg" alt="Drags haciendo un performance en un club nocturno"></div>
+                        <div class="info-pri">
+                            <h2 class="titulos-h2">Shows</h2>
+                        </div>
+                    </div>
+                    <div class="descripcion-a">
+                        <p>Un espectáculo Drag Queen es un show divertidos, picante, trepidante y siempre respetuoso con el público. Es ideal para animar celebraciones y crear el ambiente más alegre y original en todo tipo de fiestas, incluídas las familiares.</p>
+                    </div>
+                </div>
+                <br><br>
+                <div class="col-100 medium-50">
+                    <hr class="linea-a">
+                    <div class="subsecciones-a">
+                        <div class="caja-subsecciones-a">
+                            <div class="caja-subsecciones-img">
+                                <img src="static/images/shows/lipsync.jpg" alt="Primer plano de una Drag Queen haciendo lipsync"></div><a href="/lipsync/">
+                                <h3 class="info-subsecciones">Lipsync</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="caja-subsecciones-a">
+                        <div class="caja-subsecciones-img">
+                            <img src="static/images/shows/canto-conchita.jpg" alt="Acercamiento de la famosa conchita Wurst cantando"></div><a href="/canto/">
+                            <h3 class="info-subsecciones">Canto</h3>
+                        </a>
+                    </div>
+                    <div class="caja-subsecciones-a">
+                        <div class="caja-subsecciones-img">
+                            <img src="static/images/shows/burlesque.jpg" alt="Primer plano de DragQueen con sombrero al estilo Burlesque"></div><a href="/burlesque/">
+                            <h3 class="info-subsecciones">Burlesque</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
 <script>
-export default {}
+    export default {}
+
 </script>
