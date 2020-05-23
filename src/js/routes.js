@@ -1,5 +1,14 @@
 
 import HomePage from '../pages/home.f7.html';
+import Historia from '../pages/historia.f7.html';
+import Dragsfamosas from '../pages/dragsfamosas.f7.html';
+import Lascasas from '../pages/lascasas.f7.html';
+import Naomi from '../pages/naomi.f7.html';
+import Alaska from '../pages/alaska.f7.html';
+import Trixie from '../pages/trixie.f7.html';
+import Aquaria from '../pages/aquaria.f7.html';
+import RuPaul from '../pages/rupaul.f7.html';
+import Alyssa from '../pages/alyssa.f7.html';
 import AboutPage from '../pages/about.f7.html';
 import FormPage from '../pages/form.f7.html';
 import Cuerpo from '../pages/about.f7.html';
@@ -15,7 +24,6 @@ import Canto from '../pages/canto.f7.html';
 import Burlesque from '../pages/burlesque.f7.html';
 import Bar from '../pages/bar.f7.html';
 import Bailes from '../pages/bailes.f7.html';
-
 
 import DynamicRoutePage from '../pages/dynamic-route.f7.html';
 import RequestAndLoad from '../pages/request-and-load.f7.html';
@@ -69,6 +77,43 @@ var routes = [
     {
     path: '/bailes/',
     component: Bailes,
+},
+    {
+    path: '/historia/',
+    component: Historia,
+  },
+    {
+    path: '/dragsfamosas/',
+    component: Dragsfamosas,
+  },
+    {
+    path: '/lascasas/',
+    component: Lascasas,
+  },
+
+    {
+    path: '/naomi/',
+    component: Naomi,
+  },
+    {
+    path: '/alaska/',
+    component: Alaska,
+  },
+    {
+    path: '/trixie/',
+    component: Trixie,
+  },
+    {
+    path: '/aquaria/',
+    component: Aquaria,
+  },
+    {
+    path: '/rupaul/',
+    component: RuPaul,
+  },
+    {
+    path: '/alyssa/',
+    component: Alyssa,
   },
   {
     path: '/about/',
