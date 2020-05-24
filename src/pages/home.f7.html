@@ -4,98 +4,147 @@
     <div class="navbar navbar-large">
       <div class="navbar-bg"></div>
       <div class="navbar-inner">
+
         <div class="left">
           <a href="#" class="link icon-only panel-open" data-panel="left">
             <i class="icon f7-icons if-not-md">menu</i>
             <i class="icon material-icons if-md">menu</i>
           </a>
         </div>
-        <div class="title sliding">Trepadisima</div>
-        <div class="right">
-          <a href="#" class="link icon-only panel-open" data-panel="right">
-            <i class="icon f7-icons if-not-md">menu</i>
-            <i class="icon material-icons if-md">menu</i>
-          </a>
-        </div>
+
+        <div class="title sliding trepadisima-ana"><img src="static/images/trepadisima_navbar.svg" alt="logo trepadisima"></div>
         <div class="title-large">
-          <div class="title-large-text">Trepadísima</div>
+          <div class="title-large-text large-trepadisima-a"><img src="static/images/trepadisima_navbar.svg" alt="logo trepadísima"></div>
         </div>
       </div>
     </div>
-    <!-- Toolbar-->
-    <div class="toolbar toolbar-bottom">
-      <div class="toolbar-inner">
-        <a href="#" class="link">Cuerpo</a>
-        <a href="#" class="link">Maquillaje</a>
-        <a href="#" class="link"><i class="f7-icons color-white">house_fill</i></a>
-        <a href="#" class="link">Cabello</a>
-        <a href="/vestuario/" class="link">Vestuario</a>
-      </div>
-    </div>
+        <!-- Toolbar-->
+        <div class="toolbar toolbar-bottom">
+            <div class="toolbar-inner">
+                <a href="/cuerpo/" class="link"><img src="static/images/cuerpo.svg" alt="ícono de cuerpo"></a>
+                <a href="/maquillaje/" class="link"><img src="static/images/maquillaje.svg" alt="ícono de brocha"></a>
+                <a href="/" class="link"><img src="static/images/home.svg" alt="ícono de home"></a>
+                <a href="/cabello/" class="link"><img src="static/images/cabello.svg" alt="ícono de  cepillo de cabello"></a>
+                <a href="/vestuario/" class="link"><img src="static/images/vestuario.svg" alt="ícono de vestido"></a>
+            </div>
+        </div>
     <!-- Scrollable page content-->
-    <div class="page-content">
-      <div class="block block-strong">
-        <p>Here is your blank Framework7 app. Let's see what we have here.</p>
-      </div>
-      <div class="block-title">Navigation</div>
-      <div class="list">
-        <ul>
-          <li>
-            <a href="/about/" class="item-content item-link">
-              <div class="item-inner">
-                <div class="item-title">About</div>
+    <div class="page-content fondo-s">
+    <div class="slogo-menu"><img src="../static/imagenes/menu-logo-14.png" alt=""></div>
+    <div class="block">
+<!--        login screen-->
+         <p>
+          <a href="#" class="button login-screen-open" data-login-screen=".login-screen"><strong>Iniciar Sesión</strong></a>
+        </p>
+        <p>
+
+         <div class="login-screen">
+    <div class="view">
+      <div class="page">
+        <div class="page-content login-screen-content">
+          <div class="login-screen-title"><strong>Registro</strong></div>
+          <form>
+            <div class="list">
+              <ul>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label"><strong>Usuario</strong></div>
+                    <div class="item-input-wrap">
+                      <input type="text" name="username" placeholder="Tu usuario">
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label"><strong>Contraseña</strong></div>
+                    <div class="item-input-wrap">
+                      <input type="password" name="password" placeholder="Tu contraseña">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list">
+              <ul>
+                <li><a class="list-button" href="#"><strong>Iniciar Sesión</strong></a></li>
+              </ul>
+              <div class="block-footer">
+                <p><a class="link login-screen-close" href="#"><strong>Cerrar</strong></a></p>
+                <br>
+                <br>
+
+                <div class="creditos-login">
+                    <h4><strong>Designed By</strong></h4>
+                    <p>Sebastián Guzmán | Ana Pereira | Valentina Salazar</p>
+                </div>
               </div>
-            </a>
-          </li>
-          <li>
-            <a href="/form/" class="item-content item-link">
-              <div class="item-inner">
-                <div class="item-title">Form</div>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="block-title">Modals</div>
-      <div class="block block-strong">
-        <div class="row">
-          <div class="col-50">
-            <a href="#" class="button button-raised button-fill popup-open" data-popup="#my-popup">Popup</a>
-          </div>
-          <div class="col-50">
-            <a href="#" class="button button-raised button-fill login-screen-open" data-login-screen="#my-login-screen">Login Screen</a>
-          </div>
+            </div>
+          </form>
         </div>
-      </div>
-
-      <div class="block-title">Panels</div>
-      <div class="block block-strong">
-        <div class="row">
-          <div class="col-50">
-            <a href="#" class="button button-raised button-fill panel-open" data-panel="left">Left Panel</a>
-          </div>
-          <div class="col-50">
-            <a href="#" class="button button-raised button-fill panel-open" data-panel="right">Right Panel</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="list links-list">
-        <ul>
-          <li>
-            <a href="/dynamic-route/blog/45/post/125/?foo=bar#about">Dynamic (Component) Route</a>
-          </li>
-          <li>
-            <a href="/load-something-that-doesnt-exist/">Default Route (404)</a>
-          </li>
-          <li>
-            <a href="/request-and-load/user/123456/">Request Data & Load</a>
-          </li>
-        </ul>
       </div>
     </div>
   </div>
+<!--final login screen-->
+        <div class="subsecciones-s">
+         <div class="caja-subsecciones-s">
+              <div class="caja-subsecciones-img">
+                  <img src="static/imagenes/menu-historia.jpeg" alt="">
+                </div>
+                  <a href="/historia/"><h3 class="info-subsecciones-s">Historia</h3>
+                  </a>
+          </div>
+          <div class="caja-subsecciones-s">
+              <div class="caja-subsecciones-img">
+                  <img src="static/imagenes/menu-dragsc.jpeg" alt="">
+                  </div>
+                  <a href="/dragsfamosas/"><h3 class="info-subsecciones-s">Drags Famosas</h3>
+                  </a>
+          </div>
+
+          <div class="caja-subsecciones-s">
+              <div class="caja-subsecciones-img">
+                  <img src="static/imagenes/menu-maquillaje.jpeg" alt="">
+                  </div>
+                  <a href="/maquillaje/"><h3 class="info-subsecciones-s">Maquillaje</h3>
+                  </a>
+          </div>
+
+          <div class="caja-subsecciones-s">
+              <div class="caja-subsecciones-img">
+                  <img src="static/imagenes/menu-cabello.jpeg" alt="">
+                  </div>
+                  <a href="/cabello/"><h3 class="info-subsecciones-s">Cabello</h3>
+                  </a>
+          </div>
+
+          <div class="caja-subsecciones-s">
+              <div class="caja-subsecciones-img">
+                  <img src="static/imagenes/menu-vestuario.jpeg" alt="">
+                  </div>
+                  <a href="/vestuario/"><h3 class="info-subsecciones-s">Vestuario</h3>
+                  </a>
+          </div>
+
+          <div class="caja-subsecciones-s">
+              <div class="caja-subsecciones-img">
+                  <img src="static/imagenes/menu-baile.jpeg" alt="">
+                  </div>
+                  <a href="/bailes/"><h3 class="info-subsecciones-s">Bailes</h3>
+                  </a>
+          </div>
+
+          <div class="caja-subsecciones-s">
+              <div class="caja-subsecciones-img">
+                  <img src="static/imagenes/menu-shows.jpeg" alt="">
+                  </div>
+                  <a href="/shows/"><h3 class="info-subsecciones-s">Shows</h3>
+                  </a>
+          </div>
+
+      </div>
+    </div>
+    </div>
+    </div>
 </template>
 <script>
 export default {}

@@ -1,0 +1,910 @@
+/*ESTILOS VALEN */
+.page-content.fondo-v {
+    background-image: url(../static/images/Valen/jps/Textura_Azul.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foto-maquillajev {
+    position: relative;
+    width: 100%;
+}
+.titulo-maquillajev {
+    text-align: center;
+    font-family: "metropolis", sans-serif;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    margin-top: -32%;
+    margin-left: 8%;
+    font-weight: 800;
+    align-content: center;
+    letter-spacing: 2px;
+    -webkit-text-fill-color: rgba(134, 134, 134, 0.4);
+    -webkit-text-stroke-width: 1px;
+}
+
+.texto-maquillajev {
+    color: white;
+    font-family: "metropolis", sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+.foto-seccion-maquillajev {
+    width: 100%;
+    border-radius: 50px;
+    position: relative;
+    margin: 5% 0 5% 0;
+}
+.linea-productosv {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #f56b9f;
+    position: absolute;
+    margin-top: -2%;
+    margin-left: -22%;
+}
+.linea-carav {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin-top: -2%;
+    margin-left: -35%;
+}
+.linea-cuerpov {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin-top: -2%;
+    margin-left: -30%;
+}
+/***PRODUCTOS***/
+.titulo-productosv {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #f56b9f;
+    position: absolute;
+    margin-top: -45%;
+    margin-left: 5%;
+}
+.col.button.button-raised.button-round.boton-v {
+    width: 50%;
+    margin: 20px auto 20px;
+    background-color: #f6c7ab;
+    box-shadow: 0 0 15px black;
+}
+.list.acordion-v {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    list-style: none;
+    font-family: "metropolis", sans-serif;
+}
+.polvos-imagenv {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+.item-title.valen {
+    font-size: 22px;
+    font-weight: 400;
+}
+.accordion-item.valen {
+    color: white;
+}
+/***CARA***/
+.titulo-carav {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 5%;
+}
+.texto-carav {
+    color:white;
+    font-family: "metropolis", sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+.instruccion-carav {
+    color: #f6c7ab;
+    font-family: "metropolis", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 25px 10px 25px 10px;
+    font-weight: 900;
+}
+.boton-carav {
+    background-color: #f6c7ab;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    font-family: "metropolis", sans-serif;
+    font-size: 22px;
+    color: #06164D;
+    margin-top: 10%;
+}
+/***INSTRUCTIVO MAQUILLAJE CARA***/
+.titulo-instructivo-maquillajev {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin-top: -45%;
+    margin-right: 3%;
+    text-align: center;
+}
+.foto-instructivo-maquillajev {
+    width: 55%;
+    display: block;
+    margin: 35px auto 15px;
+    
+}
+.pasoapaso-instructivo-maquillajev {
+    font-family: "metropolis", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #f6c7ab;
+    text-align: center;
+}
+.texto-instructivo-maquillajev {
+    font-family: "metropolis", sans-serif;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+/***CABELLO***/
+.linea-cabellov {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #f56b9f;
+    position: absolute;
+    margin-top: 3%;
+    text-align: center;
+    margin-right: 3%;
+}
+.linea-pelucasv {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin-top: 3%;
+    text-align: center;
+    margin-right: 3%;
+}
+.titulo-cabellov {
+    text-align: center;
+    font-family: "metropolis", sans-serif;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 15%;
+    font-weight: 800;
+    align-content: center;
+    letter-spacing: 2px;
+    -webkit-text-fill-color: rgba(134, 134, 134, 0.4);
+    -webkit-text-stroke-width: 1px;
+}
+/****INSTRUCTIVO PELUCA***/
+.linea-instructivo-cabellov {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #f56b9f;
+    position: absolute;
+    margin-top: -45%;
+    text-align: center;
+    margin-right: 3%;
+}
+.linea-instructivo-pelucasv {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #f56b9f;
+    position: absolute;
+    margin-top: -35%;
+    text-align: center;
+    margin-left: 4%;
+}
+
+/***CUIDADO PELUCAS***/
+.texto-cuidado-pelucasv {
+    font-family: "metropolis", sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+.indicacion-pelucav {
+    display: flex;
+    width: 100%;
+}
+.img-indicacionv {
+    display: block;
+    width: 10%;
+}
+.texto-indicacionv {
+    color: white;
+    font-family: "metropolis", sans-serif;
+    font-size: 15px;
+    margin-left: 5%;
+}
+/***CUERPO***/
+.titulo-cuerpov {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 5%;
+}
+
+
+/*ESTILOS ANA*/
+/*
+font-family: "metropolis", sans serif;
+*/
+/*ÍCONOS MENÚ*/
+.toolbar-inner img {
+    width: 40%;
+}
+
+.trepadisima-ana {
+    margin-left: -20px;
+}
+
+.trepadisima-ana img {
+    width: 40%;
+}
+
+.large-trepadisima-a img {
+    width: 45%;
+}
+
+.large-trepadisima-a {
+    text-align: center;
+
+}
+
+/*VESTUARIO ANA*/
+
+/**VESTUARIO PRIMERA PARTE ANA***/
+.fondo-a {
+    background-image: url(../static/images/Textura_Azul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondo-an {
+    background-image: url(../static/images/Textura_Negra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulos-h2 {
+    text-align: center;
+    font-family: "metropolis", sans-serif;
+    font-size: 4em;
+    letter-spacing: 2px;
+    -webkit-text-fill-color: rgba(134, 134, 134, 0.4);
+    -webkit-text-stroke-width: 1px;
+    color: white;
+    font-weight: 800;
+    align-content: center;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenido-principal-a {
+    position: relative;
+}
+
+.caja-foto-pri img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 3%;
+}
+
+.descripcion-a p {
+    font-size: 1em;
+    font-family: "metropolis", sans-serif;
+    text-align: justify;
+    color: white;
+}
+
+.siguiente-a {
+    display: block;
+    text-align: right;
+}
+
+.margen {
+    margin-top: 40px;
+}
+
+/**VESTUARIO SEGUNDA PARTE ANA***/
+
+.titulos-h4 {
+    font-family: "metropolis", sans-serif;
+    font-size: 1.5em;
+    color: white;
+    margin-top: 0;
+}
+
+.pie-foto {
+    color: white;
+    font-family: "metropolis", sans-serif;
+}
+
+.caja-foto-a img {
+    width: 100%;
+}
+
+.linea-a {
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: white;
+    width: 50%;
+}
+
+/****SUBSECCIONES ANA***/
+
+.caja-subsecciones-a {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.caja-subsecciones-a:active {
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
+.caja-subsecciones-img img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+
+}
+
+.info-subsecciones {
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    bottom: 0%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/*PADDING ANA*/
+.iratras-a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.atras-a {
+    display: block;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.titulos-h4-atras {
+    font-family: "metropolis", sans-serif;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 200;
+}
+
+.titulos-h3 {
+    font-family: "metropolis", sans-serif;
+    font-size: 2em;
+    color: white;
+    margin-top: 0;
+}
+
+/*TUCKING ANA*/
+.pasos-tucking {
+    padding-top: 10px;
+}
+
+.txt-tucking {
+    padding: 5px 0;
+}
+
+.caja-foto-ab img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/*PASOS ANA*/
+.txt-tucking p {
+    font-size: 1em;
+    font-family: "metropolis", sans-serif;
+    color: white;
+    margin-left: 22%;
+    margin-top: -50px;
+}
+
+.img-tuck img {
+    width: 15%;
+}
+
+
+/*DEMOS STYLED CARD ANA*/
+
+.tarjeta-ana {
+    background-color: rgba(3, 3, 3, 0.7);
+    font-family: "metropolis", sans-serif;
+
+}
+
+.tarjeta-ana .info-tarjeta-a {
+    height: 40vw;
+    background-size: cover;
+    background-position: top;
+    color: #000000;
+    font-weight: 700;
+}
+
+.tarjeta-ana p {
+    color: #c3c3c3;
+}
+
+/*CONTENIDO VESTUARIO CARACTERISTICAS ANA*/
+.contenido-black {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0 0 20px 0;
+}
+
+.galeria-a {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeria-a img {
+    width: 50%;
+    object-fit: cover;
+}
+
+/*BAILES ANA*/
+.bg-ana {
+    background-image: url(../static/images/bailes/pasos-voguing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.titulos-h3-2 {
+    font-family: "metropolis", sans-serif;
+    font-size: 2em;
+    color: #e63299;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+}
+
+.swiper-contenido-a {
+    position: relative;
+
+}
+
+.swiper-a img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/*LIPSYNC ANA*/
+.caja-foto-b img {
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.contenido-tips-a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.caja-tips-ana {
+    margin: auto;
+    text-align: center;
+    align-items: baseline;
+}
+
+.caja-tips-ana img {
+    width: 60%;
+    justify-content: center;
+}
+
+.caja-tips-ana p {
+    font-size: 1em;
+    font-family: "metropolis", sans-serif;
+    color: white;
+}
+
+.peque-ana {
+    font-size: 0.8em;
+    font-family: "metropolis", sans-serif;
+    color: white;
+    margin: auto;
+    display: table;
+    margin-top: -12px;
+}
+
+/*CANTO ANA*/
+.contenido-canto {
+    padding-top: 10px;
+}
+
+.cajas-canto {
+    padding: 5px 0;
+}
+
+.caja-foto-ab img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+/*BURLESQUE ANA*/
+.caja-foto-ab-2 img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.btn-ana {
+    width: 50%;
+    display: table;
+    margin: auto;
+}
+
+.sheet-ana {
+    font-family: "metropolis", sans-serif;
+
+}
+
+/*PASOS ANA*/
+.txt-canto p {
+    font-size: 1em;
+    font-family: "metropolis", sans-serif;
+    color: white;
+    margin-left: 22%;
+    margin-top: -50px;
+    text-align: justify;
+}
+
+.img-canto img {
+    width: 15%;
+}
+
+/*BAR ANA*/
+.mapa iframe {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+}
+
+/****taRJETAS ANA****/
+.contenido-artistas-a {
+    font-family: "metropolis", sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+.redes-ana ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0 20px;
+}
+
+.redes-ana ul li:not(:last-child) {
+    margin-right: 30px;
+
+}
+
+.artistas-a img {
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+}
+
+.artistas-a {
+    box-sizing: border-box;
+    padding: 40px 40px 0 40px;
+    background-image: url(../static/images/Textura_Rojiza.jpg);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+
+}
+
+.artistas-a .tarjetas-art {
+    color: white;
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.artistas-a p {
+    font-size: 1em;
+    color: white;
+    margin-top: -15px;
+}
+
+/*MENÚ ANA*/
+.navbar .trepadisima-navbar {
+    text-align: left;
+
+    padding: 20px 0 0;
+}
+
+.trepadisima-navbar {
+    width: 100%;
+    background-color: black;
+}
+
+.trepadisima-navbar img {
+    width: 40%;
+}
+
+.fondo-ar {
+    background-image: url(../static/images/Textura_Rojiza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondo-lista-a a {
+    color: white;
+}
+
+.menu-ana ul {
+    background-color: #06164d;
+    font-family: "metropolis", sans serif;
+
+}
+.contenido-ana{
+    margin-top: 0;
+}
+.contenido-ana-2{
+    padding-top: 0;
+}
+
+
+/* SEBASTIAN CSS*/
+.grid-resizable-demo {
+  --f7-grid-row-gap: 16px;
+}
+.grid-resizable-demo div[class*="col"] {
+  margin-bottom: 0;
+}
+.grid-resizable-demo .demo-col-center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sfoto-menu img {
+    width: 100%;
+}
+.slogo-menu img{
+    width: 100%;
+    margin-bottom: -40px;
+}
+.smenu h3{
+    font-family: "metropolis", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sinfo-menu a {
+    color: #F46B9F;
+    font-family: "metropolis", sans-serif;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.sm-historia img{
+    width: 100%;
+    margin-top: 0px;
+}
+.sm-titulo {
+        text-align: center;
+    font-family: "metropolis", sans-serif;
+    font-size: 4em;
+    letter-spacing: 2px;
+    -webkit-text-fill-color: rgba(134, 134, 134, 0.4);
+    -webkit-text-stroke-width: 1px;
+    color: white;
+    font-weight: 800;
+    align-content: center;
+    position: relative;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -50%;
+    margin-bottom: -20px;
+}
+
+.sm-tc p{
+    color: white;
+    font-family: "metropolis", sans-serif;
+    font-size: 10px;
+
+}
+.sm-pf{
+    color: white;
+    font-family: "metropolis", sans-serif;
+    font-size: 6px;
+    margin-top: -5px;
+}
+.caja-subsecciones-s{
+    position: relative;
+    margin-bottom: 20px;
+}
+.caja-subsecciones-s:active{
+    background-color: rgba(244, 107, 159, 0.62);
+}
+.caja-subsecciones-s h3{
+
+    color: white;
+    font-family: "metropolis", sans-serif;
+    font-size: 30px;
+}
+.caja-subsecciones-img img{
+    width: 100%;
+    height: 120px;
+    object-fit:cover;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+
+}
+
+.info-subsecciones-s{
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    bottom: 0%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.sm-titulo-casas h2 {
+    color: white;
+    font-family: "metropolis", sans-serif;
+    font-size: 27px;
+    margin-bottom: -8px;
+}
+.sm-tc h2 {
+    color: white;
+    font-family: "metropolis", sans-serif;
+    font-size: 15px;
+    margin-bottom: -10px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.columna-rc {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row-rc::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.columna-rc h2 {
+    color: white;
+    font-family: "metropolis", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: 0px;
+}
+.popup-close {
+    color: white;
+    background-color: aqua;
+    font-family: "metropolis", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.page-content.fondo-s{
+    background-image: url(/static/imagenes/fondoapppp-14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-screen-title {
+    color: #06164D;
+    font-family: "metropolis", sans-serif;
+    font-size: 40px;
+}
+.list {
+   color: #06164D;
+    font-family: "metropolis", sans-serif;
+    font-size: 20px;
+}
+.item-title.item-label {
+    color: #06164D;
+    font-family: "metropolis", sans-serif;
+    font-size: 20px;
+}
+.img-dc-sm img{
+    width: 100%;
+}
+.txt-dc h2{
+    color: white;
+    font-family: "metropolis", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.txt-dc p{
+    color: white;
+    font-family: "metropolis", sans-serif;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 900;
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
+.page-content.pagina-rc {
+    background-color: #F46B9F;
+}
+.block-boton-s {
+    color: white;
+    font-family: "metropolis", sans-serif;
+    font-size: 14px;
+}
+.col.button.button-large.button-raised.button-fill {
+    background-color: #06164D;
+}
+.col.button.button-large.button-raised.button-fill a {
+    color: white;
+}
+.creditos-login {
+    color: #06164D;
+    font-family: "metropolis", sans-serif;
+    font-size: 14px;
+}
+.creditos-login h4{
+    margin-bottom: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

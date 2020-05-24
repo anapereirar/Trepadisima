@@ -1,10 +1,29 @@
 
 import HomePage from '../pages/home.f7.html';
+
+import Maquillaje from '../pages/maquillaje.f7.html';
+import Productos from '../pages/productos.f7.html';
+import Cara from '../pages/cara.f7.html';
+import InstructivoCara from '../pages/instructivocara.f7.html';
+import Cuerpo from '../pages/cuerpo.f7.html';
+import InstructivoCuerpo from '../pages/instructivocuerpo.f7.html';
+import Cabello from '../pages/cabello.f7.html';
+import InstructivoPeluca from '../pages/instructivopeluca.f7.html';
+import CuidadoPeluca from '../pages/cuidadopeluca.f7.html';
+
+
+import Historia from '../pages/historia.f7.html';
+import Dragsfamosas from '../pages/dragsfamosas.f7.html';
+import Lascasas from '../pages/lascasas.f7.html';
+import Naomi from '../pages/naomi.f7.html';
+import Alaska from '../pages/alaska.f7.html';
+import Trixie from '../pages/trixie.f7.html';
+import Aquaria from '../pages/aquaria.f7.html';
+import RuPaul from '../pages/rupaul.f7.html';
+import Alyssa from '../pages/alyssa.f7.html';
+
 import AboutPage from '../pages/about.f7.html';
 import FormPage from '../pages/form.f7.html';
-import Cuerpo from '../pages/about.f7.html';
-import Maquillaje from '../pages/form.f7.html';
-import Cabello from '../pages/form.f7.html';
 import Vestuario from '../pages/vestuario.f7.html';
 import Padding from '../pages/padding.f7.html';
 import Tucking from '../pages/tucking.f7.html';
@@ -16,7 +35,6 @@ import Burlesque from '../pages/burlesque.f7.html';
 import Bar from '../pages/bar.f7.html';
 import Bailes from '../pages/bailes.f7.html';
 
-
 import DynamicRoutePage from '../pages/dynamic-route.f7.html';
 import RequestAndLoad from '../pages/request-and-load.f7.html';
 import NotFoundPage from '../pages/404.f7.html';
@@ -27,11 +45,49 @@ var routes = [
     component: HomePage,
   },
     {
+    path: '/maquillaje/',
+    component: Maquillaje,
+  },
+    
+    {
+    path: '/productos/',
+    component: Productos,
+  },
+    {
+    path: '/cara/',
+    component: Cara,
+  },
+    {
+    path: '/instructivocara/',
+    component: InstructivoCara,
+  },
+    {
+    path: '/cuerpo/',
+    component: Cuerpo,
+  },
+    {
+    path: '/instructivocuerpo/',
+    component: InstructivoCuerpo,
+  },
+    {
+    path: '/cabello/',
+    component: Cabello,
+  },
+    {
+    path: '/instructivopeluca/',
+    component: InstructivoPeluca,
+  },
+    {
+    path: '/cuidadopeluca/',
+    component: CuidadoPeluca,
+  },
+    
+    {
     path: '/vestuario/',
     component: Vestuario,
   },
     {
-    path: '/',
+    path: '/cuerpo/',
     component: Cuerpo,
   },
     {
@@ -69,16 +125,53 @@ var routes = [
     {
     path: '/bailes/',
     component: Bailes,
+},
+    {
+    path: '/historia/',
+    component: Historia,
+  },
+    {
+    path: '/dragsfamosas/',
+    component: Dragsfamosas,
+  },
+    {
+    path: '/lascasas/',
+    component: Lascasas,
+  },
+
+    {
+    path: '/naomi/',
+    component: Naomi,
+  },
+    {
+    path: '/alaska/',
+    component: Alaska,
+  },
+    {
+    path: '/trixie/',
+    component: Trixie,
+  },
+    {
+    path: '/aquaria/',
+    component: Aquaria,
+  },
+    {
+    path: '/rupaul/',
+    component: RuPaul,
+  },
+    {
+    path: '/alyssa/',
+    component: Alyssa,
   },
   {
     path: '/about/',
     component: AboutPage,
   },
+  
   {
     path: '/form/',
     component: FormPage,
   },
-
 
   {
     path: '/dynamic-route/blog/:blogId/post/:postId/',
