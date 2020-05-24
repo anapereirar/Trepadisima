@@ -1,0 +1,267 @@
+/*ESTILOS VALEN */
+.page-content.fondo-v {
+    background-image: url(../static/images/Valen/jps/Textura_Azul.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foto-maquillajev {
+    position: relative;
+    width: 100%;
+}
+.titulo-maquillajev {
+    text-align: center;
+    font-family: "metropolis", sans-serif;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    margin-top: -32%;
+    margin-left: 8%;
+    font-weight: 800;
+    align-content: center;
+    letter-spacing: 2px;
+    -webkit-text-fill-color: rgba(134, 134, 134, 0.4);
+    -webkit-text-stroke-width: 1px;
+}
+
+.texto-maquillajev {
+    color: white;
+    font-family: "metropolis", sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+.foto-seccion-maquillajev {
+    width: 100%;
+    border-radius: 50px;
+    position: relative;
+    margin: 5% 0 5% 0;
+}
+.linea-productosv {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #f56b9f;
+    position: absolute;
+    margin-top: -2%;
+    margin-left: -22%;
+}
+.linea-carav {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin-top: -2%;
+    margin-left: -35%;
+}
+.linea-cuerpov {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin-top: -2%;
+    margin-left: -30%;
+}
+/***PRODUCTOS***/
+.titulo-productosv {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #f56b9f;
+    position: absolute;
+    margin-top: -45%;
+    margin-left: 5%;
+}
+.col.button.button-raised.button-round.boton-v {
+    width: 50%;
+    margin: 20px auto 20px;
+    background-color: #f6c7ab;
+    box-shadow: 0 0 15px black;
+}
+.list.acordion-v {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    list-style: none;
+    font-family: "metropolis", sans-serif;
+}
+.polvos-imagenv {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+.item-title.valen {
+    font-size: 22px;
+    font-weight: 400;
+}
+.accordion-item.valen {
+    color: white;
+}
+/***CARA***/
+.titulo-carav {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 5%;
+}
+.texto-carav {
+    color:white;
+    font-family: "metropolis", sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+.instruccion-carav {
+    color: #f6c7ab;
+    font-family: "metropolis", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 25px 10px 25px 10px;
+    font-weight: 900;
+}
+.boton-carav {
+    background-color: #f6c7ab;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    font-family: "metropolis", sans-serif;
+    font-size: 22px;
+    color: #06164D;
+    margin-top: 10%;
+}
+/***INSTRUCTIVO MAQUILLAJE CARA***/
+.titulo-instructivo-maquillajev {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin-top: -45%;
+    margin-right: 3%;
+    text-align: center;
+}
+.foto-instructivo-maquillajev {
+    width: 55%;
+    display: block;
+    margin: 35px auto 15px;
+    
+}
+.pasoapaso-instructivo-maquillajev {
+    font-family: "metropolis", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #f6c7ab;
+    text-align: center;
+}
+.texto-instructivo-maquillajev {
+    font-family: "metropolis", sans-serif;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+/***CABELLO***/
+.linea-cabellov {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #f56b9f;
+    position: absolute;
+    margin-top: 3%;
+    text-align: center;
+    margin-right: 3%;
+}
+.linea-pelucasv {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin-top: 3%;
+    text-align: center;
+    margin-right: 3%;
+}
+.titulo-cabellov {
+    text-align: center;
+    font-family: "metropolis", sans-serif;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 15%;
+    font-weight: 800;
+    align-content: center;
+    letter-spacing: 2px;
+    -webkit-text-fill-color: rgba(134, 134, 134, 0.4);
+    -webkit-text-stroke-width: 1px;
+}
+/****INSTRUCTIVO PELUCA***/
+.linea-instructivo-cabellov {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #f56b9f;
+    position: absolute;
+    margin-top: -45%;
+    text-align: center;
+    margin-right: 3%;
+}
+.linea-instructivo-pelucasv {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #f56b9f;
+    position: absolute;
+    margin-top: -35%;
+    text-align: center;
+    margin-left: 4%;
+}
+
+/***CUIDADO PELUCAS***/
+.texto-cuidado-pelucasv {
+    font-family: "metropolis", sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+.indicacion-pelucav {
+    display: flex;
+    width: 100%;
+}
+.img-indicacionv {
+    display: block;
+    width: 10%;
+}
+.texto-indicacionv {
+    color: white;
+    font-family: "metropolis", sans-serif;
+    font-size: 15px;
+    margin-left: 5%;
+}
+/***CUERPO***/
+.titulo-cuerpov {
+    font-family: "metropolis", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 5%;
+}
+
+
+/*ESTILOS ANA*/
+
+
+
+
+
+
+
+
+
+
+
+
+

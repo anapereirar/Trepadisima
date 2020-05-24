@@ -1,5 +1,15 @@
 
 import HomePage from '../pages/home.f7.html';
+import Maquillaje from '../pages/maquillaje.f7.html';
+import Productos from '../pages/productos.f7.html';
+import Cara from '../pages/cara.f7.html';
+import InstructivoCara from '../pages/instructivocara.f7.html';
+import Cuerpo from '../pages/cuerpo.f7.html';
+import InstructivoCuerpo from '../pages/instructivocuerpo.f7.html';
+import Cabello from '../pages/cabello.f7.html';
+import InstructivoPeluca from '../pages/instructivopeluca.f7.html';
+import CuidadoPeluca from '../pages/cuidadopeluca.f7.html';
+
 import AboutPage from '../pages/about.f7.html';
 import FormPage from '../pages/form.f7.html';
 
@@ -13,10 +23,50 @@ var routes = [
     path: '/',
     component: HomePage,
   },
+    {
+    path: '/maquillaje/',
+    component: Maquillaje,
+  },
+    
+    {
+    path: '/productos/',
+    component: Productos,
+  },
+    {
+    path: '/cara/',
+    component: Cara,
+  },
+    {
+    path: '/instructivocara/',
+    component: InstructivoCara,
+  },
+    {
+    path: '/cuerpo/',
+    component: Cuerpo,
+  },
+    {
+    path: '/instructivocuerpo/',
+    component: InstructivoCuerpo,
+  },
+    {
+    path: '/cabello/',
+    component: Cabello,
+  },
+    {
+    path: '/instructivopeluca/',
+    component: InstructivoPeluca,
+  },
+    {
+    path: '/cuidadopeluca/',
+    component: CuidadoPeluca,
+  },
+    
+    
   {
     path: '/about/',
     component: AboutPage,
   },
+  
   {
     path: '/form/',
     component: FormPage,
